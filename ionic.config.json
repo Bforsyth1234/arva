@@ -1,0 +1,7 @@
+{
+  "name": "arva-photo-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
