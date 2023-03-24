@@ -6,6 +6,8 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
+import { CapturePhotosComponent } from '../capture-photos/capture-photos.component';
+import { SaveFileComponent } from '../save-file/save-file.component';
 
 @NgModule({
   imports: [
@@ -15,6 +17,6 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     ExploreContainerComponentModule,
     Tab1PageRoutingModule
   ],
-  declarations: [Tab1Page]
+  declarations: [Tab1Page, CapturePhotosComponent, SaveFileComponent]
 })
-export class Tab1PageModule {}
+export class Tab1PageModule { }
